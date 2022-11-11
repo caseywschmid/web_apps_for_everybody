@@ -1,0 +1,75 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#one {
+  border: 5px solid blue;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+#two {
+  border: 5px solid green;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+#three {
+  border: 5px solid orange;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#four {
+  border: 5px solid yellow;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+a {
+  background-color: #354eb1;
+  color: #fefefe;
+  text-decoration: none;
+  padding: 10px 9px;
+  text-shadow: 0 1px 0 #3c58c7;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#link {
+  top: 0px;
+  text-align: center;
+}
+
+/* The four boxes have five pixel borders with different colors and five pixels
+of margin and padding. It is probably simplest to use fixed positioning to get
+the boxes to be "sticky" to the corners of the screen even when you resize. Make
+the boxes width be 25% so the width changes as you resize your browser. */
+
+/* Center the link at the top of the page. Use your developer console / inspect
+element feature of your browser to visit https://www.brainyquote.com/ and figure
+out the background color, font, and text color they are using in the top
+navigation bar and replicate that exactly for the link to BrainyQuote in your
+index.htm. */
+
+/* You might find that using the border shortcut in your CSS instead of the
+separate "border" values makes the CSS validtor "happier". */
+
+/* Your CSS must pass the validator at:
+https://jigsaw.w3.org/css-validator */
